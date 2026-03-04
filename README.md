@@ -167,7 +167,7 @@ mensajes de error personalizados.
 
 - Si la validación falla, se retorna un error con los detalles.
 
- Si es exitosa, los datos se encapsulan en un UpdatePersonDTO y se pasan al
+ - Si es exitosa, los datos se encapsulan en un UpdatePersonDTO y se pasan al
  servicio update_person de services.person_service, que actualiza la información
  en la base de datos.
 
