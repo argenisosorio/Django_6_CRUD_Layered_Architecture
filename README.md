@@ -141,7 +141,7 @@ y mensajes de error personalizados.
 - Si los datos no son válidos, se retorna un error HTTP 400 con los mensajes de
 validación.
 
-Si son válidos, se encapsulan en un DTO (Data Transfer Object) llamado PersonDTO
+- Si son válidos, se encapsulan en un DTO (Data Transfer Object) llamado PersonDTO
 que permite transferir datos de manera estructurada entre capas, desacoplando la
 lógica de negocio de la presentación.
 
