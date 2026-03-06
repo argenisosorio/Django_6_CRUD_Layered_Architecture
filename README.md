@@ -185,6 +185,8 @@ eliminación, redirige automáticamente al listado de personas.
 ```
 Django==6.0.2
 Python>=3.12
+django-ninja==1.5.3
+django-cors-headers==4.9.0
 ```
 
 ## Instalación de requerimientos
