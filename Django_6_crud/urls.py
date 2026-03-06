@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import include, path
 from ninja import NinjaAPI
-from apps.persons.api import router as person_router
+from apps.persons.api.api import router as person_router
 
 # Instanciamos la API
 api = NinjaAPI(title="Mi Proyecto CRUD API")
