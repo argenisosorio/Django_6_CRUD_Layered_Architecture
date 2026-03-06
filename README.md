@@ -208,6 +208,22 @@ $ python manage.py runserver
 Abra su navegador en http://127.0.0.1:8000 y verá la aplicación CRUD de Django 6
 para administrar registros de personas.
 
+## Prueba la API de Django Ninja
+
+Abra su navegador en: http://127.0.0.1:8000/api/docs
+
+Desde esa interfaz (Swagger), puedes:
+
+- Ver todos sus puntos finales.
+
+- Haga clic en "Probarlo" y pruebe todos los métodos.
+
+- Envía un objeto JSON para crear una persona y ver la respuesta en tiempo real.
+
+- Lista de personas http://127.0.0.1:8000/api/persons/
+
+- Obtener personas http://127.0.0.1:8000/api/persons/{person_id}
+
 ## Imagen
 
 ![1.png](1.png "1.png")
